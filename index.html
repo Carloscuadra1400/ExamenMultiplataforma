@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Examen</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1 align = "Center">Formulario Registro</h1>
+        <hr>
+        <br>
+    </header>   
+    <div id="Contenedor">
+
+        <form id="Form-registro">
+            <div class="casilla">
+                <label for="identidad">Numero de Identidad</label>
+                <input type="text" id="identidad" name="identidad">
+            </div>
+            <div class="casilla">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="casilla">
+                <label for="correo">Correo</label>
+                <input type="text" id="correo" name="correo">
+            </div>
+            <div class="casilla">
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono">
+            </div>
+            <div class="casilla">
+                <label>Fecha de nacimiento(YYYY-MM-DD)</label>
+                <input type="text" id="anio" name="anio">
+                <input type="text" id="mes" name="mes">
+                <input type="text" id="dia" name="dia">
+            </div>
+            <input type="submit" value="Guardar" id="guardar">
+
+        </form>
+    </div>
+    <script src="procesos.js"></script>
+</body>
+</html>

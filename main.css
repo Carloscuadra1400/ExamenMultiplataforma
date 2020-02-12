@@ -1,0 +1,36 @@
+body, html {
+    padding: 0%
+    margin 0;
+    background-color: rgb(207, 250, 158); 
+}
+
+#Form-registro {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#Form-registro .casilla{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    
+}
+
+#Form-registro .casilla input{
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#Form-registro .casilla label{
+    font-weight: 600px;
+    font-size: 16px
+}
+
+#Form-registro input[type = "submit"] {
+    background-color: rgb(243, 154, 154);
+    font-size: 16px;
+    margin: 10px;
+    font-style: inherit;
+}
